@@ -8,5 +8,5 @@ steps:
     docker pull loadimpact/k6
   displayName: Pull k6 image
 - script: |
-    docker run -i -e K6_CLOUD_TOKEN=$(k6cloud.token) -v `pwd`:/src loadimpact/k6 cloud /src/loadtest.js
+    docker run -i -e K6_CLOUD_TOKEN=$(k6cloud.token) -v `pwd`:/src loadimpact/k6 cloud /src/ManualLogin.js
   displayName: Run k6 cloud
