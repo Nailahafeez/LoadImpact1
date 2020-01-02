@@ -4,7 +4,7 @@ import { check } from "k6";
 let url, opts, r;
 
 export let options = {
-  stages: [{ target: 10, duration: "1s" }]
+  stages: [{ target: 10, duration: "10s" }]
 };
 
 export default function(data) {
