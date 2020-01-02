@@ -27,7 +27,7 @@ name: "test.loadimpact.com",
 distribution: {
 loadZoneLabel2: {
 loadZone: "amazon:ie:dublin",
-percent: 40
+percent: 100
 }
 }
 }
