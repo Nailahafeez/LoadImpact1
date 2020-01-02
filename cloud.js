@@ -25,14 +25,9 @@ ext: {
 loadimpact: {
 name: "test.loadimpact.com",
 distribution: {
-loadZoneLabel1: {
-loadZone: "amazon:us:ashburn",
-percent: 60
-},
 loadZoneLabel2: {
 loadZone: "amazon:ie:dublin",
 percent: 40
-}
 }
 }
 }
